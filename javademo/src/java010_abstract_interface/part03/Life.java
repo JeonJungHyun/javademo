@@ -1,0 +1,18 @@
+package java010_abstract_interface.part03;
+
+// extends ~~~ implements ~~~, ~~~, ~~~
+public class Life extends Animal implements SampleA, SampleB {
+	public Life() {
+		
+	}
+
+	@Override
+	public void call() {
+		System.out.println("call");
+	}
+
+	@Override
+	public void prn() {
+		System.out.println("prn");
+	}
+}
